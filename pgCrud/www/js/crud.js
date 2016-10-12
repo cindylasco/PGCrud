@@ -1,6 +1,8 @@
 var crudApp= document.getElementById("crudApp");
 var ment="This is a CRUD exercise using JavaScript";
+var disclaimer="Cindy A. Lasco";
 crudApp.innerHTML = ment;
+crudApp.innerHTML = disclaimer;
 
 var app = new function() {
 this.x = document.getElementById('products');
