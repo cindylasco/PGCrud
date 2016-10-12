@@ -72,7 +72,7 @@ this.editProduct = function (item) {
 
 this.deleteProduct = function (item) {
 	this.products.splice(item, 1);
-	this.DisplayList();
+	this.displatProducts();
 };
 
 }
